@@ -38,10 +38,8 @@ class Song
       if self.all.find{|song| song.name == name} == nil
         self.create_by_name
       else 
-        
-      
-    else
-  
+        self.all.find{|song| song.name == name
+      end 
   end
 end
  
