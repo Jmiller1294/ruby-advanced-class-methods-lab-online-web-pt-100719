@@ -52,6 +52,7 @@ class Song
     self.artist_name = filename.split(" - ").song[0]
     self.name = filename.split(" - ").song[1].chomp(".mp3")
     @@all << song
+    song
   end
 end
  
