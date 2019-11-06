@@ -53,5 +53,12 @@ class Song
     song.name = (filename.split(" - ")[1].chomp(".mp3"))
     song 
   end
+  
+  def
+  
+  
+  
+  
+  end
 end
  
