@@ -21,5 +21,6 @@ class Song
     song = song.new
     @name = name
     song
+  end
 end
  
